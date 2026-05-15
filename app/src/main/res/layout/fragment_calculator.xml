@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundDark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Title -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Material Calculator"
+            android:textColor="@color/primaryGreen"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Calculate construction materials easily"
+            android:textColor="@color/textGray"
+            android:textSize="14sp" />
+
+        <!-- Length -->
+
+        <EditText
+            android:id="@+id/etLength"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/button_gradient"
+            android:hint="Length (feet)"
+            android:textColorHint="#94A3B8"
+            android:textColor="#111827"
+            android:inputType="numberDecimal"
+            android:padding="16dp"
+            android:autofillHints="" />
+
+        <!-- Height -->
+
+        <EditText
+            android:id="@+id/etHeight"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/button_gradient"
+            android:hint="Height (feet)"
+            android:textColorHint="#CBD5E1"
+            android:inputType="numberDecimal"
+            android:padding="16dp"
+            android:textColor="@color/textWhite"
+            android:autofillHints="" />
+
+        <!-- Thickness -->
+
+        <Spinner
+            android:id="@+id/spinnerThickness"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/button_gradient"
+            android:padding="10dp" />
+
+        <!-- Calculate Button -->
+
+        <Button
+            android:id="@+id/btnCalculate"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@color/primaryGreen"
+            android:text="Calculate Materials"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- Results Card -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/button_gradient"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Results"
+                android:textColor="#111827"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <!-- Bricks -->
+
+            <TextView
+                android:id="@+id/tvBricks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Bricks : 0"
+                android:textColor="#111827"
+                android:textSize="16sp" />
+
+            <!-- Cement -->
+
+            <TextView
+                android:id="@+id/tvCement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Cement : 0 Bags"
+                android:textColor="#111827"
+                android:textSize="16sp" />
+
+            <!-- Sand -->
+
+            <TextView
+                android:id="@+id/tvSand"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Sand : 0 m³"
+                android:textColor="#111827"
+                android:textSize="16sp" />
+
+            <!-- Steel -->
+
+            <TextView
+                android:id="@+id/tvSteel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Steel : 0 kg"
+                android:textColor="#111827"
+                android:textSize="16sp" />
+
+            <!-- Volume -->
+
+            <TextView
+                android:id="@+id/tvVolume"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Concrete Volume : 0 m³"
+                android:textColor="#111827"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

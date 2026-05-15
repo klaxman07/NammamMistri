@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <color name="backgroundDark">#0F172A</color>
+
+    <color name="cardDark">#1E293B</color>
+
+    <color name="primaryGreen">#22C55E</color>
+
+    <color name="accentBlue">#38BDF8</color>
+
+    <color name="textWhite">#F8FAFC</color>
+
+    <color name="textGray">#CBD5E1</color>
+
+    <color name="cardBorder">#334155</color>
+
+    <color name="navDark">#081120</color>
+
+</resources>

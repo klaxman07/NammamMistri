@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme -->
+    <style name="Base.Theme.NammaMistri"
+        parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="android:statusBarColor">@android:color/transparent</item>
+
+        <item name="android:navigationBarColor">@color/navDark</item>
+
+        <item name="android:windowLightNavigationBar">false</item>
+
+        <item name="android:windowLightStatusBar">false</item>
+
+    </style>
+
+</resources>
